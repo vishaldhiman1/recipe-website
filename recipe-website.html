@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Blog</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff8e1;
+            margin: 0;
+            padding: 0;
+        }
+       
+        header {
+            background-color: #ff9800;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffcc80;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #333;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ffb74d;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #ff9800;
+            border-bottom: 2px solid #ff9800;
+            padding-bottom: 0.5rem;
+        }
+        .recipe {
+            background-color: #fff3e0;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .recipe img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .recipe h3 {
+            color: #e65100;
+        }
+        footer {
+            background-color: #ff9800;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recipe Blog</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#contact">Contact</a>
+        
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About This Blog</h2>
+            <p>Welcome to our Recipe Blog! Here you'll find a variety of delicious recipes with step-by-step instructions and photos.</p>
+        </section>
+        <section id="recipes" class="section">
+            <h2>Recipes</h2>
+            <div class="recipe">
+                <h3>Spaghetti Carbonara</h3>
+                <img src="https://via.placeholder.com/600x400?text=Spaghetti+Carbonara" alt="Spaghetti Carbonara">
+                <p>This classic Italian pasta dish is simple yet delicious. Follow our step-by-step instructions to make it at home.</p>
+            </div>
+            <div class="recipe">
+                <h3>Chicken Curry</h3>
+                <img src="https://via.placeholder.com/600x400?text=Chicken+Curry" alt="Chicken Curry">
+                <p>A flavorful and spicy chicken curry that is perfect for any occasion. Learn how to make it with our easy recipe.</p>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions, feel free to reach out to us at <a href="mailto:info@recipeblog.com">info@recipeblog.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Recipe Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
