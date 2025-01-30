@@ -106,7 +106,8 @@
         </section>
     </div>
     <footer>
-        <p>© 2024 Recipe Blog. All rights reserved.</p>
+        <p>© 2024 Recipe Blog. All rights reserved by Harshit Sharma.</p>
+        
     </footer>
 </body>
 </html>
